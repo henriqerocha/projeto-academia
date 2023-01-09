@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #545454;
+}
+header{
+    background-color: #222222;
+}
+.topo-site{
+    width: 100%;
+    max-width: 980px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.container{
+    
+}
+.topo-menu{}
+
+.menu-options{
+    display: flex;
+}
+.menu-options li{
+    list-style: none;
+}
+.menu-options li a{
+    color: white;
+    text-decoration: none;
+    padding: 5px 15px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 24px;
+    border-radius: 5px;
+}
+.menu-options li a:hover{
+    background-color: #F8C631;
+    color: black;
+}
+.image-main{
+    margin-top: 1px;
+    background-image: url(academia2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 300px;
+}
+.description-main{
+    width: 100%;
+    max-width: 970px;
+    text-align: center;
+    margin: 40px auto;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.description-main h1{
+    text-shadow: 5px 3px #222222;
+    font-size: 48px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.description-main p{
+    margin-top: 50px;
+    text-align: justify;
+    letter-spacing: 2px;
+}
+.description-main a{
+    text-decoration: none;
+    color: black;
+    background-color: #F8C631;
+    padding: 10px 20px;
+    border-radius: 85px;
+    font-weight: bold;
+}
+.description-main a:hover{
+    background-color: black;
+    color: white;
+}
+span{
+    font-weight: bold;
+    font-style: italic;
+}
+.description-second{
+    width: 100%;
+    max-width: 970px;
+    margin: 80px auto;
+    text-align: center;
+}
+.description-second h3{
+    color: white;
+    font-size: 28px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.description-second p{
+    color: white;
+    margin-top: 50px;
+    font-size: 16px;
+    letter-spacing: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.description-second a{
+    text-decoration: none;
+    color: black;
+    background-color: #F8C631;
+    padding: 10px 20px;
+    border-radius: 85px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+.description-second a:hover{
+    background-color: black;
+    color: white;
+}
+.botao{
+    margin-top: 100px;
+}
+footer{
+    background-color: #222222;
+    color: white;
+    height: 50px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
